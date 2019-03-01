@@ -36,5 +36,13 @@ p {
     width: 150px;
     border: 3px solid black;
     margin-left: 20px;
-    
+    border-radius: 20px 10px 20px 10px;
+}
+
+.box:hover{
+    background-color: rgb(41, 109, 173);
+    border: 3px dashed black;
+}
+
+li {
 }
