@@ -3,6 +3,7 @@
     
     <head>
         <title>This is my first web page</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>My first web page</h1>
@@ -22,7 +23,8 @@
             <li>Because I've fallen in love with my computer and want to give her some HTML loving.</li>
         </ul>
         <h2> Where to find the tutorial</h2>
-        <p><a href="http://www.htmldog.com">HTML Dog</a></p>
+        <br>
+        <a href="http://www.htmldog.com">HTML Dog</a>
         <table>
                 <tr>
                     <td>Row 1, cell 1</td>
@@ -49,13 +51,16 @@
             <br>
             <form>
                 <input type="text" name="textbox" value="blank">
-                <p><input type="password" name="password" required pattern="[a-zA-Z0-9]+" minlenth="3" maxlength="8"></p>
+                <br><input type="password" name="password" required pattern="[a-zA-Z0-9]+" minlenth="3" maxlength="8">
+                <br>
                 <input type="radio" id="yes" name="ask">
                 <label for="yes" value="yes">Yes</label>
                 <input type="radio" id="no" name="ask">
                 <label for="no" value="no">No</label>
-                <p><textarea name="large text" rows="5" cols="15" maxlength="150"></textarea></p>
-                <p><input type="submit" name="submit" value="Submit"></p>
+                <br><textarea name="large text" rows="5" cols="15" maxlength="150"></textarea>
+                <br><input type="submit" name="submit" value="Submit">
             </form>
+            <br>
+            <div class="box"></div>
     </body>
 </html>
